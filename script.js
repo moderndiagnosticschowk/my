@@ -1,3 +1,8 @@
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  // Mobile-specific code here
+  alert("This website is mobile compatible!");
+}
+
 let highestZ = 1;
 
 class Paper {
